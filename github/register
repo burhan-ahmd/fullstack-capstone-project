@@ -1,0 +1,12 @@
+Command: curl -X POST http://localhost:3000/api/register -H "Content-Type: application/json" -d '{"username":"testuser","email":"test@example.com","password":"password123"}'
+
+Output:
+{
+  "message": "User registered successfully",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NWFxYnNjZDRlNWY2YTdiOGM5ZDBlMSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTcwNjcxOTAwMCwiZXhwIjoxNzA2ODA1NDAwfQ.example_signature",
+  "user": {
+    "id": "65a1b2c3d4e5f6a7b8c9d0e1",
+    "username": "testuser",
+    "email": "test@example.com"
+  }
+}

@@ -1,0 +1,39 @@
+Command: curl http://localhost:3000/api/gifts
+
+Output:
+[
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e1",
+    "title": "Vintage Wooden Chair",
+    "description": "Solid oak wooden chair with beautiful grain pattern. Minor wear consistent with age. Perfect for dining room or study.",
+    "category": "Furniture",
+    "condition": "Good",
+    "location": "Brooklyn, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+    "available": true,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e2",
+    "title": "Children's Bicycle",
+    "description": "Blue 16-inch children's bicycle with training wheels. Great condition, only used for one season.",
+    "category": "Sports & Outdoors",
+    "condition": "Like New",
+    "location": "Manhattan, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=400",
+    "available": true,
+    "createdAt": "2024-01-16T14:20:00Z"
+  },
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e3",
+    "title": "Kitchen Stand Mixer",
+    "description": "Red KitchenAid stand mixer. Works perfectly. Includes all original attachments and mixing bowls.",
+    "category": "Kitchen",
+    "condition": "Good",
+    "location": "Queens, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=400",
+    "available": true,
+    "createdAt": "2024-01-17T09:15:00Z"
+  },
+  ... (showing 16 items total)
+]

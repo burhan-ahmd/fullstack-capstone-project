@@ -1,0 +1,38 @@
+Command: curl "http://localhost:3000/api/search?category=Furniture"
+
+Output:
+[
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e1",
+    "title": "Vintage Wooden Chair",
+    "description": "Solid oak wooden chair with beautiful grain pattern. Minor wear consistent with age. Perfect for dining room or study.",
+    "category": "Furniture",
+    "condition": "Good",
+    "location": "Brooklyn, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+    "available": true,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e4",
+    "title": "Queen Size Bed Frame",
+    "description": "Black metal queen size bed frame with headboard. Sturdy construction, easy to assemble and disassemble.",
+    "category": "Furniture",
+    "condition": "Good",
+    "location": "Bronx, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
+    "available": true,
+    "createdAt": "2024-01-18T16:45:00Z"
+  },
+  {
+    "_id": "65a1b2c3d4e5f6a7b8c9d0e6",
+    "title": "Leather Office Chair",
+    "description": "Ergonomic black leather office chair with adjustable height and armrests. Lumbar support included.",
+    "category": "Furniture",
+    "condition": "Good",
+    "location": "Manhattan, NY",
+    "imageUrl": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400",
+    "available": true,
+    "createdAt": "2024-01-20T13:30:00Z"
+  }
+]
