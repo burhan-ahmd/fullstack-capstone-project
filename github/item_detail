@@ -1,14 +1,4 @@
-Command: curl http://localhost:3000/api/gifts/65a1b2c3d4e5f6a7b8c9d0e1
+Command: curl http://localhost:3000/api/gifts/6aab53e7c2fb38d7cb6c05fd
 
 Output:
-{
-  "_id": "65a1b2c3d4e5f6a7b8c9d0e1",
-  "title": "Vintage Wooden Chair",
-  "description": "Solid oak wooden chair with beautiful grain pattern. Minor wear consistent with age. Perfect for dining room or study.",
-  "category": "Furniture",
-  "condition": "Good",
-  "location": "Brooklyn, NY",
-  "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
-  "available": true,
-  "createdAt": "2024-01-15T10:30:00Z"
-}
+{"_id":"6aab53e7c2fb38d7cb6c05fd","title":"Vintage Wooden Chair","description":"Solid oak wooden chair with beautiful grain pattern. Minor wear consistent with age. Perfect for dining room or study.","category":"Furniture","condition":"Good","location":"Brooklyn, NY","imageUrl":"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400","available":true,"createdAt":"2024-01-15T10:30:00Z"}

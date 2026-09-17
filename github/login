@@ -1,12 +1,4 @@
-Command: curl -X POST http://localhost:3000/api/login -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9" -d '{"email":"test@example.com","password":"password123"}'
+Command: curl -X POST http://localhost:3000/api/login -H "Content-Type: application/json" -d {"email":"test@example.com","password":"password123"}
 
 Output:
-{
-  "message": "Login successful",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NWFxYnNjZDRlNWY2YTdiOGM5ZDBlMSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTcwNjcxOTAwMCwiZXhwIjoxNzA2ODA1NDAwfQ.new_signature",
-  "user": {
-    "id": "65a1b2c3d4e5f6a7b8c9d0e1",
-    "username": "testuser",
-    "email": "test@example.com"
-  }
-}
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWFiNTQyMGVjNTM0YzAxN2VjNWRjNjYiLCJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJpYXQiOjE3ODk2MTMwODksImV4cCI6MTc4OTY5OTQ4OX0.zG5AGj_TjXfSNobY2LQsP6Kf5WXk2thWTfJ2N9xaG5I","user":{"id":"6aab5420ec534c017ec5dc66","username":"testuser","email":"test@example.com"}}

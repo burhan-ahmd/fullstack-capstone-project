@@ -1,0 +1,1 @@
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWFiNTQyMGVjNTM0YzAxN2VjNWRjNjYiLCJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJpYXQiOjE3ODk2MTMwODksImV4cCI6MTc4OTY5OTQ4OX0.zG5AGj_TjXfSNobY2LQsP6Kf5WXk2thWTfJ2N9xaG5I","user":{"id":"6aab5420ec534c017ec5dc66","username":"testuser","email":"test@example.com"}}

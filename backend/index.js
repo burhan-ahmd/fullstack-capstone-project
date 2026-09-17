@@ -1,8 +1,9 @@
+require('dotenv').config({ path: '../.env' });
 const { MongoClient } = require('mongodb');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/giftlink';
+const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri);
 const JWT_SECRET = process.env.JWT_SECRET || 'giftlink_secret_key_2024';
 
